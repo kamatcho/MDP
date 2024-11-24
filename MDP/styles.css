@@ -1,0 +1,36 @@
+.calendar-container {
+    position: relative;
+    width: 620px;
+    height: 720px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.event {
+    position: absolute;
+    background: #E2ECF5;
+    border-left: 4px solid #6E9ECF;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.event-time {
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.event-title {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.event-location {
+    color: #666;
+}
